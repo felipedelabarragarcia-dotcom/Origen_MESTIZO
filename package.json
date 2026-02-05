@@ -1,0 +1,30 @@
+{
+  "name": "origen-mestizo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "next": "14.x",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "prisma": "^5.0.0",
+    "@prisma/client": "^5.0.0",
+    "next-auth": "^4.23.0",
+    "stripe": "^12.0.0",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "tailwindcss": "^4.0.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
